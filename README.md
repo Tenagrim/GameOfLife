@@ -1,2 +1,2 @@
 # GameOfLife
-![alt text](https://github.com/Tenagrim/GameOfLife/blob/master/pictures/v01.png?raw=true)<br>
+![alt text](https://github.com/Tenagrim/GameOfLife/blob/master/pictures/v02.png?raw=true)<br>
