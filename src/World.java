@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.util.Random;
 
-public class World {
+public class World implements Serializable {
     private int     width;
     private int     height;
     private int[][][] contents;
@@ -35,7 +36,7 @@ public class World {
         if (percentage < 0 || percentage > 100)
             throw new RuntimeException("Wrong percentage in worls rnd fill");
 
-        Random rand = (seed == 0) ? new Random(seed) : new Random();
+        Random rand = (seed == 0) ? new Random() : new Random(seed);
         for(int i = 0 ; i < width; i++)
         {
             for(int j = 0 ; j < width; j++)
